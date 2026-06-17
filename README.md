@@ -1,5 +1,4 @@
-# Image_Captioning-using-Pytorch-and-Flickr8k
-
+# Image Captioning (ViT + Transformer Decoder)
 ## Requirements
 
 This project requires the following libraries and environment to successfully run the Image Captioning model (ViT + Transformer Decoder):
