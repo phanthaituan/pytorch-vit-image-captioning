@@ -1,6 +1,6 @@
 # Image_Captioning-using-Pytorch-and-Flickr8k
 
-## 📦 Requirements
+## Requirements
 
 This project requires the following libraries and environment to successfully run the Image Captioning model (ViT + Transformer Decoder):
 
@@ -23,3 +23,13 @@ This project requires the following libraries and environment to successfully ru
 ```bash
 pip install torch torchvision transformers pandas numpy matplotlib opencv-python Pillow tqdm spacy nltk rouge-score pycocoevalcap
 python -m spacy download en_core_web_sm
+```
+
+###Data Source
+* **Flickr30k:** [eeshawn/flickr30k](https://www.kaggle.com/datasets/eeshawn/flickr30k)
+* **Flickr8k (Source 1):** [tuanphanthai/flickr8k](https://www.kaggle.com/datasets/tuanphanthai/flickr8k)
+* **Flickr8k (Source 2):** [adityajn105/flickr8k](https://www.kaggle.com/datasets/adityajn105/flickr8k)
+
+###Path Configuration (Kaggle / Google Colab / Local)
+* `root_folder`: The path to the directory containing the input images (e.g., `.../flickr30k_images` or `.../Images`).
+* `annotation_file`: The path to the text file containing the caption data (e.g., `captions.txt` or `captions.csv`).
